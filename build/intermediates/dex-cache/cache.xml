@@ -9,6 +9,13 @@
         <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-03fb593ca40f85448417c86d8c2b813a8ba26b04.jar" />
     </item>
     <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\apache-httpcomponents-httpcore\apache-httpcomponents-httpcore.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\apache-httpcomponents-httpcore-f5df9b13b635965896d20427d6dc3ba6d4e9ccb1.jar" />
+    </item>
+    <item
         jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\classes.jar"
         jumboMode="false"
         revision="23.0.1"

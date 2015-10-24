@@ -6,5 +6,5 @@ package com.saitej3.EventsApp.app;
 public class URL {
 
     public static final String registerUrl="http://androidconnect.16mb.com/android_login_api/index.php";
-    public static final String registerEventUrl="";
+    public static final String registerEventUrl="http://wsdc.nitw.ac.in/tz-main/home/events_mob_json_data";
 }

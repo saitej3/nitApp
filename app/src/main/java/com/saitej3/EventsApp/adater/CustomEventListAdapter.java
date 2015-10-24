@@ -8,7 +8,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.NetworkImageView;
 import com.saitej3.EventsApp.R;
+import com.saitej3.EventsApp.app.AppController;
 import com.saitej3.EventsApp.model.Event;
 
 import java.util.List;
@@ -21,7 +24,7 @@ public class CustomEventListAdapter extends BaseAdapter {
     private Activity activity;
     private LayoutInflater inflater;
     private List<Event> eventItems;
-
+    ImageLoader imageLoader = AppController.getInstance().getImageLoader();
 
     public CustomEventListAdapter(Activity activity, List<Event> eventItems)
     {
@@ -56,10 +59,15 @@ public class CustomEventListAdapter extends BaseAdapter {
         if (convertView == null)
             convertView = inflater.inflate(R.layout.list_event_row, null);
 
+        if (imageLoader == null)
+            imageLoader = AppController.getInstance().getImageLoader();
+
 
         TextView eventName = (TextView) convertView.findViewById(R.id.eventName);
         TextView eventTime = (TextView) convertView.findViewById(R.id.eventTime);
         TextView eventDesc = (TextView) convertView.findViewById(R.id.eventDesc);
+        NetworkImageView imageIcon= (NetworkImageView) convertView.findViewById(R.id.imageIcon);
+
 
         // getting movie data for the row
         Event e = eventItems.get(position);
@@ -69,7 +77,7 @@ public class CustomEventListAdapter extends BaseAdapter {
         eventName.setText(e.getEventName());
         eventDesc.setText(e.getEventDesc());
         eventTime.setText(e.getEventTime());
-
+        imageIcon.setImageUrl(e.getImagePath(),imageLoader);
         return convertView;
     }
 }

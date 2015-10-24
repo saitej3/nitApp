@@ -22,7 +22,10 @@ import com.android.volley.toolbox.StringRequest;
 import com.saitej3.EventsApp.app.AppController;
 import com.saitej3.EventsApp.app.URL;
 import com.saitej3.EventsApp.helper.ConnectionDetector;
+import com.saitej3.EventsApp.helper.Util;
+import com.saitej3.EventsApp.model.Event;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -34,6 +37,7 @@ import java.util.Map;
  */
 public class AboutEventActivity extends Activity {
 
+    String id;
     ConnectionDetector cd;
     TextView eventName,eventTime,eventDesc,eventVenue,eventpreq,eventcname1,eventcname2,eventcno1,eventcno2;
     NetworkImageView image;
@@ -51,7 +55,8 @@ public class AboutEventActivity extends Activity {
         setContentView(R.layout.activity_aboutevent);
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            Log.d("tagnew", String.valueOf(extras.getInt("id")));
+            id=String.valueOf(extras.getInt("id"));
+
         }
         eventName= (TextView) findViewById(R.id.aeventName);
         eventTime= (TextView) findViewById(R.id.aeventTime);
@@ -86,10 +91,8 @@ public class AboutEventActivity extends Activity {
             Toast.makeText(this,"Please checkyour Network",Toast.LENGTH_SHORT).show();
             return;
         }
-        if (extras != null) {
-            Log.d("tag",String.valueOf(extras.getInt("id")));
-            getData(String.valueOf(extras.getInt("id")));
-        }
+
+        getData(id);
 
     }
 
@@ -97,7 +100,7 @@ public class AboutEventActivity extends Activity {
     private void getData(final String event) {
         if (imageLoader == null)
             imageLoader = AppController.getInstance().getImageLoader();
-        // Tag used to cancel the request
+
         String tag_string_req = "req_event";
         pDialog.setMessage("Getting Event Details ...");
         showDialog();
@@ -111,24 +114,28 @@ public class AboutEventActivity extends Activity {
                 hideDialog();
 
                 try {
-                    JSONObject jObj = new JSONObject(response);
+                    JSONArray jObj = new JSONArray(response);
                     if(jObj==null)
                     {
                         Toast.makeText(AboutEventActivity.this,"Please check the network",Toast.LENGTH_SHORT).show();
                         return;
                     }
 
-                    eventName.setText(jObj.getString("eventname"));
-                    eventTime.setText(jObj.getString("time"));
-                    eventDesc.setText(jObj.getString("description"));
-                    eventVenue.setText(jObj.getString("venue"));
-                    eventpreq.setText(jObj.getString("prerequisites"));
-                    eventcname1.setText(jObj.getString("contact_name_1"));
-                    eventcname2.setText(jObj.getString("contact_name_2"));
-                    eventcno1.setText(jObj.getString("contact_no_1"));
-                    eventcno2.setText(jObj.getString("contact_no_2"));
-
-                    image.setImageUrl(jObj.getString("imagepath"),imageLoader);
+                    JSONObject json=jObj.getJSONObject(0);
+                    eventName.setText(json.getString("event_name"));
+                    eventTime.setText(json.getString("time"));
+                    eventDesc.setText(json.getString("content"));
+                    eventVenue.setText(json.getString("event_place"));
+                    eventpreq.setText(json.getString("remarks"));
+                    eventcname1.setText(json.getString("contact1name"));
+                    eventcname2.setText(json.getString("contact2name"));
+                    eventcno1.setText(json.getString("contact1num"));
+                    eventcno2.setText(json.getString("contact2num"));
+                    String base_url="http://172.20.0.34/tz-main/assets/images/headers/";
+                    String path=json.getString("event_alias");
+                    path=base_url+path+"_header.jpg";
+                    Log.d("Image",path);
+                    image.setImageUrl(path,imageLoader);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -150,8 +157,7 @@ public class AboutEventActivity extends Activity {
             protected Map<String, String> getParams() {
                 // Posting params to register url
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("tag", "register");
-                params.put("eventname", event);
+                params.put("id", event);
                 return params;
             }
 
@@ -179,6 +185,10 @@ public class AboutEventActivity extends Activity {
         myDialog.show(fm,"pop");
 
     }
+
+
+
+
 
 
 }

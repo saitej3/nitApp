@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomListViewVolley.iml" filepath="$PROJECT_DIR$/CustomListViewVolley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-httpcomponents-httpcore/apache-httpcomponents-httpcore.iml" filepath="$PROJECT_DIR$/apache-httpcomponents-httpcore/apache-httpcomponents-httpcore.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

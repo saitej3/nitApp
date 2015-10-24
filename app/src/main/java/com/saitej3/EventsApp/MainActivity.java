@@ -20,6 +20,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.saitej3.EventsApp.DatePickerFragment.Communicator;
 import com.saitej3.EventsApp.helper.ServerUtilities;
 
@@ -42,6 +46,7 @@ import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.saitej3.EventsApp.adater.CustomEventListAdapter;
 import com.saitej3.EventsApp.app.AppController;
 import com.saitej3.EventsApp.helper.ConnectionDetector;
+import com.saitej3.EventsApp.helper.Util;
 import com.saitej3.EventsApp.model.Event;
 
 /**
@@ -101,7 +106,7 @@ public class MainActivity extends Activity implements Communicator{
             public void onClick(View v) {
             }
 
-            ;
+
         });
 
         cd = new ConnectionDetector(getApplicationContext());
@@ -123,8 +128,7 @@ public class MainActivity extends Activity implements Communicator{
             Log.i(TAGGCM, "No valid Google Play Services APK found.");
         }
 
-        getData("2");
-
+            new FetchTaskCord().execute("2015-09-21");
     }
 
     public void getData(final String date) {
@@ -310,6 +314,71 @@ public class MainActivity extends Activity implements Communicator{
 
         protected void onPostExecute(String msg) {
             Toast.makeText(MainActivity.this,"redid created",Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
+    public class FetchTaskCord extends AsyncTask< String,Void,String> {
+
+        private ProgressDialog progressDialog;
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressDialog=new ProgressDialog(MainActivity.this);
+            progressDialog.setMessage("Fetching Event Locations");
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+        }
+
+        @Override
+        protected String doInBackground(String... strings) {
+
+            if(strings[0]==null) return null;
+            HashMap<String,String> data=new HashMap();
+            data.put("date", strings[0]);
+            Log.d("tag me one",strings[0]);
+            String jsonstr= Util.getStringFromURL("http://wsdc.nitw.ac.in/tz-main/home/events_mob_json_date", data);
+
+            if (jsonstr!=null) {
+                Log.d("GOT FROM HTTP", jsonstr);
+                try {
+                    JSONArray jsonArr= new JSONArray(jsonstr);
+                    Log.d("jsonArray",jsonArr.toString());
+                    for(int i=0;i<jsonArr.length();i++) {
+                        JSONObject feedObj = (JSONObject) jsonArr.get(i);
+                        Event ename=new Event();
+                        ename.setId(Integer.valueOf(feedObj.getString("id")));
+                        ename.setEventName(feedObj.getString("event_name"));
+                        ename.setEventTime(feedObj.getString("time"));
+                        ename.setEventDesc(feedObj.getString("remarks"));
+
+                        String path="http://172.20.34/tz-main/assets/images/events_icons/"+ feedObj.getString("event_alias")+".jpg";
+                        ename.setImagePath(path);
+
+                        Log.d("icon",path);
+
+                        eventList.add(ename);
+                    }
+
+                    return "yeas";
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+            return null;
+        }
+
+        @Override
+        protected void  onPostExecute(String yes ) {
+            super.onPostExecute(yes);
+            if (progressDialog.isShowing()) {
+                progressDialog.cancel();
+            }
+
+
+            adapter.notifyDataSetChanged();
+
         }
     }
 }

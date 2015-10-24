@@ -9,19 +9,20 @@ public class Event {
     String eventName;
     String eventTime;
     String eventDesc;
-
+    String imagePath;
 
     public Event()
     {
 
     }
 
-    public Event(int id, String eventName, String eventTime, String eventDesc)
+    public Event(int id, String eventName, String eventTime, String eventDesc, String imagePath)
     {
         this.id=id;
         this.eventName=eventName;
         this.eventTime=eventTime;
         this.eventDesc=eventDesc;
+        this.imagePath=imagePath;
     }
 
     public int getId()
@@ -60,6 +61,13 @@ public class Event {
     public void setEventDesc(String name)
     {
         this.eventDesc=name;
+    }
+
+    public String getImagePath(){return imagePath;}
+
+    public void setImagePath(String name)
+    {
+        this.imagePath=name;
     }
 
 }
