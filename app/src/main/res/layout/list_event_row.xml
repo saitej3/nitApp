@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/feed_item_bg"
+    android:paddingRight="3dp"
+    android:paddingLeft="3dp"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/list_row_selector">
+
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/eventName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rihanna Love the wa perfect me was "
+                android:layout_marginBottom="4dp"
+                android:textColor="#00BCD4"
+                android:typeface="sans"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/eventDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:width="0dip"
+                android:text="Event  C301 EEE department "
+                android:layout_marginBottom="6dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/list_row_selector">
+
+            <TextView
+                android:id="@+id/eventTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="12:20 am"
+                android:paddingLeft="8dp"
+                android:layout_marginLeft="4dp"
+                android:paddingRight="5dip" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

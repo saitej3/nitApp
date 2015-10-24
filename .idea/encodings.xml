@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/saitej3/EventsApp/GCMIntentService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/saitej3/EventsApp/adater/CustomEventListAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/saitej3/EventsApp/helper/ServerUtilities.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/saitej3/EventsApp/model/Event.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic.png" charset="UTF-8" />
+  </component>
+</project>

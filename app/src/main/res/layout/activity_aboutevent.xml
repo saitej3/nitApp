@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aeventMain"
+    android:layout_margin="5dp"
+    android:background="#FAFAFA">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aeventName"
+                android:text="HoverMania"
+                android:layout_weight="3"
+                android:textColor="#00BCD4"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aeventTime"
+                android:textColor="#616161"
+                android:text="12:30 am"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aeventDesc"
+            android:textColor="#757575"
+            android:text="Its a event about integration of all the terrains of the on earth.You have to basically nail every bit of the competetion and make it look awesome!"
+            android:textSize="22sp"
+            android:layout_marginBottom="4dp"/>
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/eventimage"
+            android:layout_width="fill_parent"
+            android:src="@drawable/eventimage"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue:"
+            android:layout_marginBottom="2dp"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aeventVenue"
+            android:textSize="20sp"
+            android:textColor="#757575"
+            android:text="Room no 303 COOPS 3rd floor"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact:"
+            android:layout_marginBottom="2dp"
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/aeventConatct1"
+                android:layout_weight="2"
+                android:text="Sreerag "
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aeventContactno1"
+                android:layout_weight="1"
+                android:textColor="#757575"
+                android:text="7794879899"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aeventConatct2"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="2"
+                android:text="Sai Teja"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aeventContactno2"
+                android:layout_weight="1"
+                android:textColor="#757575"
+                android:text="9848322338"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prerequisites/Notes:"
+            android:layout_marginBottom="2dp"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:layout_marginLeft="8dp"
+            android:text="Bring Your laptops and other things"
+            android:id="@+id/aeventpreq"
+            android:textSize="20sp"
+            android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aeventGoing"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="#4285f4"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</ScrollView>

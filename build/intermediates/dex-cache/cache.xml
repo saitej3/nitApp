@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-03fb593ca40f85448417c86d8c2b813a8ba26b04.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-c12aaeb16d29d922843356647565b16a000295c1.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-684db77d9d998d0884e83d1dafcbdfc7b95693ee.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-4b0c1cde9d5e0f5b78117d0b8d5466b9afb72b6c.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-38b5765e647ae11d465789b8fd157dea30b31426.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-6da3e8f1a2a64fb98ac6926bd3f5aaceedb03619.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-616e4baba5463673a6d7e31442586be05c3825d2.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-128cecb991dd243f14a892870f321b2bab655075.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-d0fc87697d624c3882b6d0f39eb7ec2db4c0d734.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-f59252e350e4a32b4d5973aa318e6b2e1c2306bb.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-c39a400cc1de6b3cb97480d0db9688ffdaced431.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-1d7c1ada2ff7496834d165d4157d4d34691285f1.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-df9000bb23b539f815de24a4f0390b0d84d04645.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-92110ad04d3ee8abb162bf3edab1dcc0efe47aff.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\volley-ab25c6bbc3bff509f0547b1f9aaab1b250f6723d.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\volley-ab25c6bbc3bff509f0547b1f9aaab1b250f6723d.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-7a55533ed0ba0c33231e226ccc8da0e63902670b.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-bf123ff8e116cf1bc81e93aa30184367e4af2613.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sai Teja\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-b7458fcc1a7060d185fb311b5c4940c48a04a257.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-a7ed383004e3bf3825ddf7c3e473b579800b27c9.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-ca2d578343b135feded952fa9a86b6ef0c2c17bb.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-087b9e7a202429f96daa6671d7c12e2244ea30db.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-264e9a6ba252df267c8445afc13ecd4219e4dc48.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82054090e487d78e163a988557db62d809fa9b95">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-b3b5978455e9d6ad70c103a0c3552a6d76666686.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-ae5b9c5fcdb95e8a2b5e9a6fbd7fd819b066f0d8.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-fb1bbb15efd0e2c933f84fafce6efd9ef1458807.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-0d05c238daaabbbed6648c496915abbb04d52719.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-8dd2513c84c98f9a526b5bcf61fca1cd774beeb7.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-e9240cc0634aea86e5811858336a5ae5347bd8bb.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-cca0527458c2fe66096a245a7c3bbb0cd9a08854.jar" />
+    </item>
+    <item
+        jar="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="F:\Android\SQLiteMySQLSync\CustomListViewVolley\app\build\intermediates\pre-dexed\debug\classes-ea68f103775f7d63449c2467bd16308bac5e8150.jar" />
+    </item>
+
+</items>
